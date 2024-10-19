@@ -1,0 +1,28 @@
+
+.conteinerBtn{
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Empuja todo el contenedor hacia la derecha */
+  width: fit-content;
+ height: auto;
+ 
+ 
+}
+
+
+
+
+button {
+  padding: 10px 20px;
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+ margin: 15px;
+  
+}
+button:active {
+  background-color: rgba(245, 245, 220, 0.507);
+}
