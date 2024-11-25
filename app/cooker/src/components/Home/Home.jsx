@@ -5,7 +5,7 @@ import styles from "../Home/Home.module.css"
 export default function Home() {
   return (
    <div className={styles.conteiner}>
-    <h2 className={styles.h2}>COOKER IN THE KITCHEN, ALWAYS READY AND ON FIRE</h2>
+    <h2 className={styles.h2}>CHEFS IN THE KITCHEN, ALWAYS READY AND ON FIRE</h2>
     <img className={styles.img} src= {image} alt="" /> 
    </div>
   )

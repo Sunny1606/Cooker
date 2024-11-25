@@ -1,28 +1,35 @@
-
-.conteinerBtn{
-  /* background-color: aqua; */
+.conteinerBtn {
+  background-color: rgb(252, 136, 94);
   display: flex;
   align-items: center;
-  margin-left: auto; /* Empuja todo el contenedor hacia la derecha */
-  width: fit-content;
- height: auto;
- 
- 
+  width: 100%;
+  
+  /* justify-content: space-between; */
 }
-
-
-
 
 button {
   padding: 10px 20px;
-  background-color: grey;
+  background-color: rgb(252, 136, 94);
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
- margin: 15px;
-  
+  margin-inline-start: 30%;
+  font-size: medium;
+  transition: box-shadow 0.3s ease-in-out;
 }
 button:active {
   background-color: rgba(245, 245, 220, 0.507);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+
+}
+
+.img {
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
+  height: 15%;
+  width: 15%;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 15px;
 }
