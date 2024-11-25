@@ -8,13 +8,14 @@ export default function Nav() {
     <div className={style.conteinerBtn}>
       <img className={style.img} src={image} alt="" />
       <Link to={"/chefs"}>
-        <button className={style.btn}>CHEFS</button>
+        <button className={style.btn}>ARGENTINA</button>
       </Link>
-
-      {/* <button className={style.btn}>CHAU</button> */}
-
-      {/* <button className={style.btn}>QUE TAL</button>
-      <button className={style.btn}>ADIOS</button> */}
+      <Link to={""}>
+        <button className={style.btn}>BRASIL</button>
+      </Link>
+      <Link to={""}>
+        <button className={style.btn}>PERU</button>
+      </Link>
     </div>
   );
 }

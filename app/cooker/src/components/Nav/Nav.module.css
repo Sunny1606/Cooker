@@ -3,27 +3,25 @@
   display: flex;
   align-items: center;
   width: 100%;
-  
-  
   /* justify-content: space-between; */
 }
 
 button {
-  padding: 10px 20px;
+  padding: 10px;
+  margin-left: 100px;
+  /* justify-content: space-between; */
   background-color: rgb(161, 50, 9);
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-inline-start: 500%;
+  /* margin-inline-start: 500%; */
   font-size: medium;
   transition: box-shadow 0.3s ease-in-out;
- 
 }
 button:active {
   background-color: rgba(245, 245, 220, 0.507);
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
-
 }
 
 .img {
