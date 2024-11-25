@@ -1,0 +1,18 @@
+.gridConteiner{
+    background-color: blue;
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));  /* Columnas dinámicas */
+  gap: 20px;  /* Espacio entre las tarjetas */
+  padding: 20px;
+}
+
+.card{
+    background-color: aquamarine;
+    
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s;
+}

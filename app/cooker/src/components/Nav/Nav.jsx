@@ -3,8 +3,6 @@ import style from "./Nav.module.css";
 import image from "/src/images/chef-logo-chefs-hat-knives-600nw-1691316280.jpg";
 import { Link } from "react-router-dom";
 
-
-
 export default function Nav() {
   return (
     <div className={style.conteinerBtn}>
