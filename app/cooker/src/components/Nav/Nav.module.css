@@ -4,19 +4,21 @@
   align-items: center;
   width: 100%;
   
+  
   /* justify-content: space-between; */
 }
 
 button {
   padding: 10px 20px;
-  background-color: rgb(252, 136, 94);
+  background-color: rgb(161, 50, 9);
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-inline-start: 30%;
+  margin-inline-start: 500%;
   font-size: medium;
   transition: box-shadow 0.3s ease-in-out;
+ 
 }
 button:active {
   background-color: rgba(245, 245, 220, 0.507);
