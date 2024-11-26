@@ -5,6 +5,9 @@ import images2 from "../../images/Dolli-Irigoyen-Contratapa.jpg";
 import images3 from "../../images/chef.jpg";
 import images4 from "../../images/OVUKNWMN7RC4DJOTHMHIFX2WWY.avif";
 import images5 from "../../images/md.jpg";
+import images6 from "../../images/maurbotana-barcelona-pasteleria--medium-size.jpg";
+import images7 from "../../images/336_Alfajores_bio.jpg";
+import images8 from "../../images/_add3715.jpg";
 
 export default function Index() {
   return (
@@ -70,7 +73,7 @@ export default function Index() {
         </p>
       </div>
       <div className={styles.card}>
-      <img src={images5} alt="" />
+        <img src={images5} alt="" />
         <h3>Cristian Petersen (Argentina)</h3>
         <p>
           <strong>Especialidad:</strong> Cocina argentina tradicional con
@@ -83,6 +86,53 @@ export default function Index() {
           <strong>Reconocimiento:</strong> Chef reconocido por su dominio del
           asado y la parrilla, y su participación en medios de comunicación
           culinarios.
+        </p>
+      </div>
+      <div className={styles.card}>
+        <img src={images6} alt="" />
+        <h3>Maru Botana (Argentina)</h3>
+        <p>
+          <strong>Especialidad:</strong> Repostería y cocina casera argentina.
+        </p>
+        <p>
+          <strong>Restaurantes:</strong> Maru Botana (Buenos Aires).
+        </p>
+        <p>
+          <strong>Reconocimiento:</strong> Famosa por sus programas de
+          televisión y su enfoque en la repostería y platos tradicionales
+          argentinos.
+        </p>
+      </div>
+      <div className={styles.card}>
+        <img src={images7} alt="" />
+        <h3>Juan Manuel Herrera (Argentina)</h3>
+        <p>
+          <strong>Especialidad:</strong> Alta cocina argentina con énfasis en
+          ingredientes autóctonos.
+        </p>
+        <p>
+          <strong>Restaurantes:</strong> El Baqueano (Buenos Aires).
+        </p>
+        <p>
+          <strong>Reconocimiento:</strong> Reconocido por su creatividad al
+          utilizar productos locales y tradicionales en su cocina.
+        </p>
+      </div>
+      <div className={styles.card}>
+        <img src={images8} alt="" />
+        <h3>Pamela Villar (Argentina)</h3>
+        <p>
+          <strong>Especialidad:</strong> Pastelería y cocina argentina.
+        </p>
+        <p>
+          <strong>Programas de TV:</strong> Jurado en{" "}
+          <em>Bake Off Argentina</em> y conductora de <em>Bakery</em> en El
+          Gourmet.
+        </p>
+        <p>
+          <strong>Reconocimiento:</strong> Destacada por su enfoque en la
+          pastelería artesanal y por popularizar recetas dulces en la televisión
+          argentina.
         </p>
       </div>
     </div>
