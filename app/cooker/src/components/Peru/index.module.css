@@ -1,23 +1,27 @@
 .gridConteiner {
-  /* background-color: blue; */
   display: grid;
   grid-template-columns: repeat(
     auto-fit,
-    minmax(300px, 1fr)
-  ); 
-  gap: 20px; 
+    minmax(200px, 1fr)
+  ); /* 300px como mínimo */
+  gap: 50px; /* Espacio entre las tarjetas */
   padding: 20px;
 }
 
 .card {
-  background-color: #FFBD73;
-
+  background-color: #ffbd73;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   text-align: center;
   padding: 15px;
   transition: transform 0.3s;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 
 .card img {

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../Chefs/index.module.css";
+import styles from "./index.module.css";
 import images1 from "../../images/damian.jpg";
 import images2 from "../../images/Dolli-Irigoyen-Contratapa.jpg";
 import images3 from "../../images/chef.jpg";
@@ -8,10 +8,12 @@ import images5 from "../../images/md.jpg";
 import images6 from "../../images/maurbotana-barcelona-pasteleria--medium-size.jpg";
 import images7 from "../../images/336_Alfajores_bio.jpg";
 import images8 from "../../images/_add3715.jpg";
+// import bandera from "../../images/_95588045_178392703.jpg";
 
 export default function Index() {
   return (
     <div className={styles.gridConteiner}>
+    
       <div className={styles.card}>
         <img src={images1} alt="" />
         <h3>Damián Betular (Argentina)</h3>
