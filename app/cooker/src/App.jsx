@@ -6,7 +6,10 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Chefs from "./components/Argentina/index";
 import Peru from "./components/Peru";
 import Brasil from "./components/Brasil/index";
+
 import { useLocation } from "react-router-dom";
+import Recetas from "./components/Argentina/recetas";
+
 
 function App() {
   // const location = useLocation();
@@ -14,12 +17,16 @@ function App() {
   return (
     <>
       {/* {location.pathname !== "/arg" && <Nav />} */}
-      <Nav/>
+      <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/arg" element={<Chefs />} />
         <Route path="/peru" element={<Peru />} />
         <Route path="/brasil" element={<Brasil />} />
+        <Route path="/recetasArg" element={<Recetas />}></Route>
+        <Route path="/recetasPeru" element={<Recetas />}></Route>
+        <Route path="/recetasBrasil" element={<Recetas />}></Route>
+
       </Routes>
       <Footer />
     </>
