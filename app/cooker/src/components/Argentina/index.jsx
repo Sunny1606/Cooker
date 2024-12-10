@@ -11,13 +11,12 @@ import images6 from "../../images/maurbotana-barcelona-pasteleria--medium-size.j
 import images7 from "../../images/336_Alfajores_bio.jpg";
 import images8 from "../../images/_add3715.jpg";
 
-
 export default function Index() {
   return (
     <div className={styles.gridConteiner}>
       <div className={styles.card}>
         <img src={images1} alt="" />
-       
+
         <h3>Damián Betular (Argentina)</h3>
         <p>
           <strong>Especialidad:</strong> Pastelería y alta cocina argentina.
@@ -29,10 +28,11 @@ export default function Index() {
           <strong>Reconocimiento:</strong> Destacado por su participación en
           programas de cocina como jurado.
         </p>
-        <Link to={"/recetasArg"}>
-        <button>recetas</button>
-        </Link>
-
+        <div className={styles.button}>
+          <Link to={"/recetasArg"}>
+            <button className={styles.btn}>Recetas</button>
+          </Link>
+        </div>
       </div>
 
       <div className={styles.card}>
@@ -48,9 +48,11 @@ export default function Index() {
           <strong>Reconocimiento:</strong> Famoso por promover la cocina
           italiana en América Latina.
         </p>
-        <Link to={"/recetasArg"}>
-        <button>recetas</button>
-        </Link>
+        <div className={styles.button}>
+          <Link to={"/recetasArg"}>
+            <button className={styles.btn}>Recetas</button>
+          </Link>
+        </div>
       </div>
 
       <div className={styles.card}>
@@ -67,9 +69,11 @@ export default function Index() {
           <strong>Contribución:</strong> Reconocida por sus programas de TV y
           formación de nuevos chefs.
         </p>
-        <Link to={"/recetasArg"}>
-        <button>recetas</button>
-        </Link>
+        <div className={styles.button}>
+          <Link to={"/recetasArg"}>
+            <button className={styles.btn}>Recetas</button>
+          </Link>
+        </div>
       </div>
 
       <div className={styles.card}>
@@ -85,9 +89,11 @@ export default function Index() {
           <strong>Distinción:</strong> Figura clave en la gastronomía argentina,
           con enfoque en ingredientes locales.
         </p>
-        <Link to={"/recetasArg"}>
-        <button>recetas</button>
-        </Link>
+        <div className={styles.button}>
+          <Link to={"/recetasArg"}>
+            <button className={styles.btn}>Recetas</button>
+          </Link>
+        </div>
       </div>
       <div className={styles.card}>
         <img src={images5} alt="" />
@@ -104,9 +110,11 @@ export default function Index() {
           asado y la parrilla, y su participación en medios de comunicación
           culinarios.
         </p>
-        <Link to={"/recetasArg"}>
-        <button>recetas</button>
-        </Link>
+        <div className={styles.button}>
+          <Link to={"/recetasArg"}>
+            <button className={styles.btn}>Recetas</button>
+          </Link>
+        </div>
       </div>
       <div className={styles.card}>
         <img src={images6} alt="" />
@@ -122,9 +130,11 @@ export default function Index() {
           televisión y su enfoque en la repostería y platos tradicionales
           argentinos.
         </p>
-        <Link to={"/recetasArg"}>
-        <button>recetas</button>
-        </Link>
+        <div className={styles.button}>
+          <Link to={"/recetasArg"}>
+            <button className={styles.btn}>Recetas</button>
+          </Link>
+        </div>
       </div>
       <div className={styles.card}>
         <img src={images7} alt="" />
@@ -140,9 +150,11 @@ export default function Index() {
           <strong>Reconocimiento:</strong> Reconocido por su creatividad al
           utilizar productos locales y tradicionales en su cocina.
         </p>
-        <Link to={"/recetasArg"}>
-        <button>recetas</button>
-        </Link>
+        <div className={styles.button}>
+          <Link to={"/recetasArg"}>
+            <button className={styles.btn}>Recetas</button>
+          </Link>
+        </div>
       </div>
       <div className={styles.card}>
         <img src={images8} alt="" />
@@ -160,9 +172,11 @@ export default function Index() {
           pastelería artesanal y por popularizar recetas dulces en la televisión
           argentina.
         </p>
-        <Link to={"/recetasArg"}>
-        <button>recetas</button>
-        </Link>
+        <div className={styles.button}>
+          <Link to={"/recetasArg"}>
+            <button className={styles.btn}>Recetas</button>
+          </Link>
+        </div>
       </div>
     </div>
   );

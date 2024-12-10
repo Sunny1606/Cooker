@@ -8,8 +8,9 @@ import Peru from "./components/Peru";
 import Brasil from "./components/Brasil/index";
 
 import { useLocation } from "react-router-dom";
-import Recetas from "./components/Argentina/recetas";
-
+import RecetasA from "./components/Argentina/recetas";
+import RecetasB from "./components/Brasil/recetasB";
+import RecetasP from "./components/Peru/recetasP";
 
 function App() {
   // const location = useLocation();
@@ -23,10 +24,9 @@ function App() {
         <Route path="/arg" element={<Chefs />} />
         <Route path="/peru" element={<Peru />} />
         <Route path="/brasil" element={<Brasil />} />
-        <Route path="/recetasArg" element={<Recetas />}></Route>
-        <Route path="/recetasPeru" element={<Recetas />}></Route>
-        <Route path="/recetasBrasil" element={<Recetas />}></Route>
-
+        <Route path="/recetasArg" element={<RecetasA />}></Route>
+        <Route path="/recetasPeru" element={<RecetasP />}></Route>
+        <Route path="/recetasBrasil" element={<RecetasB />}></Route>
       </Routes>
       <Footer />
     </>
