@@ -1,10 +1,12 @@
 import React from 'react'
+import style from "../Argentina/recetas.module.css";
+
 
 export default function 
 () {
   return (
     <div>
-        <h2>RECEEETASS ARGENTINAS</h2>
+<h1>DOLI</h1>        
     </div>
   )
 }

@@ -29,7 +29,7 @@ export default function Index() {
           programas de cocina como jurado.
         </p>
         <div className={styles.button}>
-          <Link to={"/recetasArg"}>
+          <Link to={"/recetasBetu"}>
             <button className={styles.btn}>Recetas</button>
           </Link>
         </div>
@@ -49,7 +49,7 @@ export default function Index() {
           italiana en América Latina.
         </p>
         <div className={styles.button}>
-          <Link to={"/recetasArg"}>
+          <Link to={"/recetasSantis"}>
             <button className={styles.btn}>Recetas</button>
           </Link>
         </div>
@@ -70,7 +70,7 @@ export default function Index() {
           formación de nuevos chefs.
         </p>
         <div className={styles.button}>
-          <Link to={"/recetasArg"}>
+          <Link to={"/recetasDoli"}>
             <button className={styles.btn}>Recetas</button>
           </Link>
         </div>
@@ -90,7 +90,7 @@ export default function Index() {
           con enfoque en ingredientes locales.
         </p>
         <div className={styles.button}>
-          <Link to={"/recetasArg"}>
+          <Link to={"/recetasGerman"}>
             <button className={styles.btn}>Recetas</button>
           </Link>
         </div>
@@ -111,7 +111,7 @@ export default function Index() {
           culinarios.
         </p>
         <div className={styles.button}>
-          <Link to={"/recetasArg"}>
+          <Link to={"/recetasCris"}>
             <button className={styles.btn}>Recetas</button>
           </Link>
         </div>
@@ -131,7 +131,7 @@ export default function Index() {
           argentinos.
         </p>
         <div className={styles.button}>
-          <Link to={"/recetasArg"}>
+          <Link to={"/recetasMaru"}>
             <button className={styles.btn}>Recetas</button>
           </Link>
         </div>
@@ -151,7 +151,7 @@ export default function Index() {
           utilizar productos locales y tradicionales en su cocina.
         </p>
         <div className={styles.button}>
-          <Link to={"/recetasArg"}>
+          <Link to={"/recetasJuan"}>
             <button className={styles.btn}>Recetas</button>
           </Link>
         </div>
@@ -173,7 +173,7 @@ export default function Index() {
           argentina.
         </p>
         <div className={styles.button}>
-          <Link to={"/recetasArg"}>
+          <Link to={"/recetasPamela"}>
             <button className={styles.btn}>Recetas</button>
           </Link>
         </div>
