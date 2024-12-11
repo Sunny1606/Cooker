@@ -2,8 +2,13 @@ import React from "react";
 import macarons from "../../images/damian-betular-macarons_8af00972_1138071453_240229095020_1000x1249.jpg";
 import macarons1 from "../../images/receta-macarons-damian-batular_38559cc8_1138071453_240229094930_1000x1250.jpg";
 import style from "../Argentina/recetas.module.css";
+import { useEffect } from "react";
 
 export default function () {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className={style.conteiner}>
       <h2>Macarons</h2>
@@ -87,7 +92,12 @@ export default function () {
       <img
         src={macarons1}
         alt="macarons"
-        style={{ height: "300px", width: "300px", borderRadius: "10px", marginLeft: "470px" }}
+        style={{
+          height: "300px",
+          width: "300px",
+          borderRadius: "10px",
+          marginLeft: "470px",
+        }}
       />
     </div>
   );
