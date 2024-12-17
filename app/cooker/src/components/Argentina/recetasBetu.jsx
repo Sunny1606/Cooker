@@ -42,6 +42,7 @@ export default function () {
         <li>100 cc de crema de leche</li>
         <li>200 g del chocolate elegido (negro o blanco)</li>
       </ul>
+      <hr />
       <h4>Paso a Paso</h4>
       <ul>
         <li>
