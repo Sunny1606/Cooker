@@ -1,13 +1,15 @@
 import React from "react";
-import Home from "./components/Home/Home";
+import { Routes, Route, useLocation } from "react-router-dom";
+
+// import LandingPage from "./components/LandingPage/LandingPage";
 import Nav from "./components/Nav/Nav";
-import Footer from "./components/Footer/Footer";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import Home from "./components/Home/Home";
+import LandingPage from "./components/LandingPage/landingPage";
 import Chefs from "./components/Argentina/index";
 import Peru from "./components/Peru";
 import Brasil from "./components/Brasil/index";
+import Footer from "./components/Footer/Footer";
 
-import { useLocation } from "react-router-dom";
 import RecetasA from "./components/Argentina/recetasBetu";
 import RecetasB from "./components/Argentina/recetasSantis";
 import RecetasC from "./components/Argentina/recetasCris";
@@ -20,18 +22,21 @@ import RecetasH from "./components/Argentina/recetasMaru";
 import RecetasBrasil from "./components/Brasil/recetasB";
 import RecetasP from "./components/Peru/recetasP";
 
-
-
-
 function App() {
-  // const location = useLocation();
+  const location = useLocation();
+  const isLandingPage = location.pathname === "/";
+  const isFooter = location.pathname === "/";
 
   return (
     <>
-      {/* {location.pathname !== "/arg" && <Nav />} */}
-      <Nav />
+      {/* Muestra Nav solo si NO estás en la Landing Page */}
+      {!isLandingPage && <Nav />}{" "}
+
+      
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<LandingPage />} />
+
+        <Route path="/home" element={<Home />} />
         <Route path="/arg" element={<Chefs />} />
         <Route path="/peru" element={<Peru />} />
         <Route path="/brasil" element={<Brasil />} />
@@ -46,9 +51,8 @@ function App() {
 
         <Route path="/recetasPeru" element={<RecetasP />}></Route>
         <Route path="/recetasBrasil" element={<RecetasBrasil />}></Route>
-        
       </Routes>
-      <Footer />
+      {!isFooter && <Footer />}
     </>
   );
 }
